@@ -9,3 +9,6 @@ calculating the wage of an employee.
 
 ## uc3 ##
 Calculating employee working hours using function
+
+## uc4 ##
+Calculating employee wage for a month.

@@ -26,19 +26,38 @@
 #     puts "Employee wage is #{Employee_wage*8}"
 # end
 
-      ## UC3 ##
-def working_hours(Employee_type)
-  if Employee_type == 2
-    puts "Employee is working 8 hrs and wage is 160"
-  elsif Employee_type == 1
-    puts "Employee is working 4 hrs and wage is 80"
+# ## UC3 ##
+# def working_hours(Employee_type)
+#   if Employee_type == 2
+#     puts "Employee is working 8 hrs and wage is 160"
+#   elsif Employee_type == 1
+#     puts "Employee is working 4 hrs and wage is 80"
+#   else
+#     puts "Employee is not working"
+#   end
+# end
+
+# Employee_type = rand(0..2)
+# working_hours(Employee_type)
+
+
+      ## UC4 ##
+def working_hours(employee_type)
+  if employee_type == 2
+    return 160
+  elsif employee_type == 1
+    return 80
   else
-    puts "Employee is not working"
+    return 0
   end
 end
 
-Employee_type = rand(0..2)
-working_hours(Employee_type)
+
+
+employee_type = rand(0..2)
+wage_per_day = working_hours(employee_type)
+working_days = 20
+print "Employee's wage for a month is #{wage_per_day*working_days}"
 
      
      
