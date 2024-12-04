@@ -6,3 +6,6 @@ checking where a employee is present or not.
 
 ## uc2 ##
 calculating the wage of an employee.
+
+## uc3 ##
+Calculating employee working hours using function
